@@ -1,7 +1,7 @@
 // Here we're making ClickCounter by using React Hooks
 import { useState } from "react"
 
-export default function ClickCounter(props) {
+export default function ClickCounter({start = 0 , ...props }) {
 
     const [ clickCount, setClickCount ] = useState(props.start || 0)
 
@@ -19,11 +19,15 @@ export default function ClickCounter(props) {
 
     return (
         <>
+            <h1>This is coming from 1.ClickCounter.js</h1>
             <button onClick={(e) => {handleClick(e, `: times user has Clicked`)}}>Clicked {clickCount}</button>
         </>
     )
 }
 
-ClickCounter.defaultProps = {
-    start: 0
-}
+
+// // This was old way to handle. It was causing hydration error.
+// // Fixed version look at line 4:  export default function ClickCount({ start = 0, ...props})
+// ClickCounter.defaultProps = {
+//     start: 0
+// }
