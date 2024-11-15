@@ -19,7 +19,7 @@ export default function ClickCounter({start = 0 , ...props }) {
 
     return (
         <>
-            <h1>This is coming from 1.ClickCounter.js</h1>
+            <h1>1.ClickCounter.js this is coming from</h1>
             <button onClick={(e) => {handleClick(e, `: times user has Clicked`)}}>Clicked {clickCount}</button>
         </>
     )

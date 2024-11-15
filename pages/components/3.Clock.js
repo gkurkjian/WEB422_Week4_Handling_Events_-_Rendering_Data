@@ -15,7 +15,7 @@ export default function Clock({locale = "fr-CA", ...props}) {
 
     return (
         <>
-            <h1>This is coming from 3.Clock.js</h1>
+            <h1>3.Clock.js this is coming from</h1>
             {date?.toLocaleString(props.locale)}
         </>
     )
