@@ -24,6 +24,7 @@ export default function DataRendering() {
             <code>{"<p>{users[2].user} is {users[2].active && <em>Active</em>}</p>"}</code><br />
             <p>{users[2].user} is {users[2].active && <em>Active</em>}</p><br />
 
+            <h3>Checking if/else statement using Ternary operator</h3>
             {/* Print the literal JSX line as text of "if/else" statement */}
             <code>{"<p>{users[0].user} is {users[0].active ? <em>Active</em> : <em>Inactive</em>}</p>"}</code>
             <p>{users[0].user} is {users[0].active ? <em>Active</em> : <em>Inactive</em>}</p><br />
