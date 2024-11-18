@@ -1,40 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WEB422 - Week 4: Handling Events & Rendering Data
 
-## Getting Started
+**Live Demo**: [web422-week4-handling-events-rendering-data](https://web-422-week4-handling-events-rendering-data-cj9k.vercel.app/)
 
-First, run the development server:
+## Overview
+
+This project is a practice for WEB422 Week 4 covering essential concepts in React including handling events, rendering data, and incorporating state management. The repository demonstrates multiple ways of rendering data, working with components, and exploring user interactions through events.
+
+## Features
+
+- **Click Counter Components**: Demonstrates the use of event handlers to increment counters.
+
+- **Clock Component**: Displays a real-time clock that updates every second.
+
+- **Fetching Data Components**: Various methods of data fetching, including:
+  - Using `useState` and `useEffect`.
+  - Implementing SWR (Stale-While-Revalidate) for data revalidation.
+  - Static rendering of data using `getStaticProps`.
+
+- **Rendering Practice**: Shows different approaches to rendering data conditionally, including if/else and inline conditional statements.
+
+## Technologies Used
+
+- **React**: Core framework for building user interfaces.
+- **Next.js**: Utilized to pre-render data with `getStaticProps()`.
+- **SWR**: For fetching data while keeping it up-to-date.
+- **JavaScript ES6**: Syntax used for logic and state management.
+
+## Project Structure
+
+The project is broken down into multiple components that each address different key learning points:
+
+- **ClickCounter.js**: Handles button click events and updates state.
+- **ClickCounterBySecond.js**: Demonstrates managing timers with clicks.
+- **Clock.js**: Real-time clock that shows dynamic UI updating.
+- **PostData.js, PostDataUseEffect.js, PostDataSWR.js**: Different approaches for fetching data and rendering it using React hooks and SWR.
+- **PostDataStatic.js**: Example of static site generation in Next.js.
+- **DataRendering.js & DataRenderingPractice.js**: Illustrate conditional rendering techniques.
+
+## Running the Project Locally
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/gkurkjian/WEB422_Week4_Handling_Events_-_Rendering_Data.git
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project should now be running on [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Deployment
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The project is deployed on Vercel and can be accessed live [here](https://web-422-week4-handling-events-rendering-data-cj9k.vercel.app/). The deployment pipeline is set up through Vercel for seamless integration.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Key Concepts Learned
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Handling Events**: Used event handlers like `onClick` to create interactive components.
+- **State Management**: Utilized `useState` to manage and update UI based on user actions.
+- **Data Fetching**: Explored multiple data-fetching techniques to understand client-side, server-side, and SWR data handling.
+- **Next.js Features**: Leveraged `getStaticProps()` to fetch data at build time for static pages.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions are always welcome!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is open-source and available under the MIT License.
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For questions or collaboration opportunities, please contact **gkurkjian**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
