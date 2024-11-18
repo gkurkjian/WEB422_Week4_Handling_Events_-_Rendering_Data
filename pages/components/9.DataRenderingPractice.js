@@ -13,7 +13,7 @@ export default function DataRenderingPractice() {
             <h1>9.DataRenderingPractice.js component</h1>
 
             <h2>DataRenderingPractice component</h2>
-            <h3>This is the user object that we're dealing with</h3>
+            <h3>This is the user object that we&apos;re dealing with</h3>
             <p>{`{ user: 'George', active: false, age: 34 },`}</p>
             <p>{`{ user: 'Hagop', active: true, age: 36 },`}</p>
             <p>{`{ user: 'Elizabeth', active: true, age: 40 }`}</p>

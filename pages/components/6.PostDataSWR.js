@@ -14,7 +14,7 @@ export default function PostDataSWR() {
     return (
         <>
         <h1>6.PostDataSWR component</h1>
-        <p>In SWR, even though we put PostDataSWR component on 3rd in sequence, it'll trigger/render and fetch the 1st then any other code because it's Dynamic</p>
+        <p>In SWR, even though we put PostDataSWR component on 3rd in sequence, it&apos;ll trigger/render and fetch the 1st then any other code because it&apos;s Dynamic</p>
           <strong>User ID:</strong> {data?.userId}<br />
           <strong>Title:</strong> {data?.title}<br />
           <strong>Body:</strong> {data?.body}<br />

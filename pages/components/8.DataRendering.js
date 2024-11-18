@@ -11,7 +11,7 @@ export default function DataRendering() {
         <>
             <h1>8.DataRendering.js component</h1>
             
-            <h2>This is the array that we're dealing with</h2><br />
+            <h2>This is the array that we&apos;re dealing with</h2><br />
             <p>{`{ user: "fred", active: false, age: 40 },`}</p><br />
             <p>{`{ user: 'pebbles', active: false, age: 1 },`}</p><br />
             <p>{`{ user: 'barney', active: true, age: 36 }`}</p><br />

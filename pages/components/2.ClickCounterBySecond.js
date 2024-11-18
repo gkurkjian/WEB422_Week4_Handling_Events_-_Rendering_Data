@@ -23,7 +23,7 @@ export default function ClickCounterBySecond({start = 0, ...props}) {
     return (
         <>
         <h1>2.ClickCounterBySecond.js ClickCounter By Second. This is coming from</h1>
-        <h4>If you wanted to count by each second, turn "false" restrictionMood in next.config.js</h4>
+        <h4>If you wanted to count by each second, turn &quot;false&quot; restrictionMood in next.config.js</h4>
         <button onClick={(e) => handleClick(e, "Time will tick on each second")}>Clicked: {clickCount}</button>
         </>
     )

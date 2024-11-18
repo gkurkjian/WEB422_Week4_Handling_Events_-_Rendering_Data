@@ -34,7 +34,7 @@ export default function Home(props) {
       <ClickCounter /><br /><br />
       <ClickCounterBySecond /><br /><br />
       <Clock /><br /><br />
-      <h1>Here we'll start fetching data from 'URL' by using multiple methods</h1>
+      <h1>Here we&apos;ll start fetching data from &apos;URL&apos; by using multiple methods</h1>
       <FetchPostWithUseStateUseEffect /><br /><br />
       <PostDataUseEffect /><br /><br />
       <PostDataSWR /><br /><br />
